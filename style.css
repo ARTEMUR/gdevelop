@@ -26,6 +26,13 @@ header .container {
 .logo {
     font-size: 1.5em;
     font-weight: bold;
+  /* Убираем обводку фокуса при нажатии на ссылку */
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo:focus {
+    outline: none;
 }
 
 .menu-toggle {
@@ -42,7 +49,6 @@ header .container {
     margin: 3px 0;
     transition: 0.4s;
 }
-
 
 .menu {
     display: none;
@@ -68,7 +74,6 @@ header .container {
 .menu-list li {
     text-align: center;
 }
-
 
 .menu-list li a {
     display: block;
@@ -99,9 +104,9 @@ main {
     }
     .menu-list {
       display: flex;
-      
     }
     .menu-list li a {
         padding: 0 15px;
     }
 }
+
