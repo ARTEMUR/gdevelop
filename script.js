@@ -1,2 +1,4 @@
-// Здесь можно добавить JavaScript код для интерактивности, если это необходимо
-console.log("Добро пожаловать на сайт GD-Lessons!");
+function toggleMenu() {
+    const menu = document.querySelector('.menu');
+    menu.classList.toggle('active');
+}
